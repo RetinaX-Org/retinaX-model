@@ -208,6 +208,16 @@ See [`sdk/python/retinax.py`](sdk/python/retinax.py) for the full client.
 
 Fund your deployer identity with Stellar Friendbot before deploying.
 
+### Live Deployments
+
+| Component | URL |
+|-----------|-----|
+| Web app | https://retinax-model.vercel.app |
+| API health | https://retinax-model-api.vercel.app/health |
+| Audit Registry (testnet) | [`CDFM4HIU...WAUU`](https://stellar.expert/explorer/testnet/contract/CDFM4HIUGYRNNNO3TTH6PXAAGZSPSQ26ORHXZ7NHL5AVYZBX55C6WAUU) |
+| Usage Meter (testnet) | [`CCAZYCPW...MFMZ6`](https://stellar.expert/explorer/testnet/contract/CCAZYCPW32ZEZQAXWHQQBGLE77RFHJ5YBAYJJNIANYN72H6YCUPMFMZ6) |
+| Payment Router (testnet) | [`CAZB2WQG...EJFEG`](https://stellar.expert/explorer/testnet/contract/CAZB2WQGX5J3KD4D547VRXQPQMKB34E5K7US6SNUJOI6H2PCTU4EJFEG) |
+
 ---
 
 ## Roadmap

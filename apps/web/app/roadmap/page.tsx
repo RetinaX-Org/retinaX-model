@@ -97,7 +97,7 @@ const PHASES: Phase[] = [
     summary: "Deep model evaluation integrations, academic partnerships, and safety benchmarks.",
     items: [
       { text: "Integration with METR TASK benchmark suite",                    done: false },
-      { text: "Automated red-teaming hooks via ModelTrace audit log",          done: false },
+      { text: "Automated red-teaming hooks via RetinaX audit log",          done: false },
       { text: "Academic API for AI safety researchers to query aggregated data", done: false },
       { text: "Real-time bias monitoring with model-level fairness metrics",    done: false },
       { text: "Incident database: public record of AI failures across operators", done: false },
@@ -160,7 +160,7 @@ export default function RoadmapPage() {
           </div>
           <h1 className="text-4xl font-bold tracking-tight mb-3">Where we&apos;re going.</h1>
           <p className={cn("text-lg max-w-2xl", isDark ? "text-slate-400" : "text-slate-600")}>
-            ModelTrace is built in the open. Every phase is a concrete milestone with shippable deliverables — not marketing language.
+            RetinaX is built in the open. Every phase is a concrete milestone with shippable deliverables — not marketing language.
           </p>
         </motion.div>
 
@@ -262,7 +262,7 @@ export default function RoadmapPage() {
         <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.7 }} className="mb-12">
           <h2 className="text-2xl font-bold mb-2">What we need to get there</h2>
           <p className={cn("mb-7 text-sm", isDark ? "text-slate-400" : "text-slate-600")}>
-            ModelTrace is a small team. Every contribution moves the needle. Here&apos;s where to plug in.
+            RetinaX is a small team. Every contribution moves the needle. Here&apos;s where to plug in.
           </p>
           <div className="grid md:grid-cols-3 gap-5">
             {ROLES.map((role, i) => (
@@ -305,7 +305,7 @@ export default function RoadmapPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="https://github.com/grantfox-org/modeltrace/issues"
+              href="https://github.com/RetinaX-Org/retinaX-model/issues"
               target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-violet-600 text-white font-semibold text-sm hover:bg-violet-500 transition-colors"
             >
@@ -313,7 +313,7 @@ export default function RoadmapPage() {
               Browse open issues <ArrowRight className="w-4 h-4" />
             </a>
             <a
-              href="https://github.com/grantfox-org/modeltrace/blob/main/CONTRIBUTING.md"
+              href="https://github.com/RetinaX-Org/retinaX-model/blob/main/CONTRIBUTING.md"
               target="_blank" rel="noopener noreferrer"
               className={cn(
                 "inline-flex items-center gap-2 px-6 py-3 rounded-xl border font-semibold text-sm transition-colors",

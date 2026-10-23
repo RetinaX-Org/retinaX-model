@@ -66,7 +66,7 @@ function WalletModal({ isOpen, onClose, isDark }: { isOpen: boolean; onClose: ()
                   <div className="flex-1"><p className="font-black text-white uppercase text-sm tracking-wide">Freighter</p><p className="text-[9px] text-slate-500 mt-0.5">Official Stellar Extension</p></div>
                   {connecting ? <div className="w-5 h-5 border-2 border-violet-500/30 border-t-violet-500 rounded-full animate-spin" /> : <ChevronRight className="w-4 h-4 text-slate-600 group-hover:text-violet-400 transition-colors" />}
                 </button>}
-            <p className="text-center text-[8px] text-slate-700 mt-5 uppercase tracking-widest">ModelTrace · Soroban Protocol</p>
+            <p className="text-center text-[8px] text-slate-700 mt-5 uppercase tracking-widest">RetinaX · Soroban Protocol</p>
           </motion.div>
         </div>
       )}
@@ -120,7 +120,7 @@ export function Header() {
           <a href="/" className={cn("flex items-center gap-3 px-6 h-full border-r shrink-0", isDark ? "border-slate-800/60" : "border-slate-200")}>
             <div className="w-8 h-8 bg-violet-600 flex items-center justify-center rounded-lg"><Eye className="w-4 h-4 text-white" /></div>
             <div className="border-l-2 border-violet-500 pl-3">
-              <span className={cn("font-black text-sm uppercase tracking-[0.15em] leading-none block", isDark ? "text-white" : "text-slate-900")}>ModelTrace</span>
+              <span className={cn("font-black text-sm uppercase tracking-[0.15em] leading-none block", isDark ? "text-white" : "text-slate-900")}>RetinaX</span>
               <span className="text-[6px] font-mono text-violet-500/70 uppercase tracking-[0.4em]">AI Audit Protocol</span>
             </div>
           </a>

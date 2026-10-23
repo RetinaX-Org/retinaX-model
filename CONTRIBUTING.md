@@ -1,6 +1,6 @@
-# Contributing to Modeltrace
+# Contributing to RetinaX
 
-Thank you for contributing to Modeltrace! This guide will help you get started.
+Thank you for contributing to RetinaX! This guide will help you get started.
 
 ## Code of Conduct
 
@@ -17,8 +17,8 @@ Be respectful, inclusive, and constructive. We follow the [Contributor Covenant]
 ## Development Setup
 
 ```bash
-git clone https://github.com/grantfox-org/modeltrace.git
-cd modeltrace
+git clone https://github.com/RetinaX-Org/retinaX-model.git
+cd retinaX-model
 pnpm install
 pnpm dev
 ```
@@ -36,7 +36,7 @@ We follow [Conventional Commits](https://www.conventionalcommits.org/):
 
 ```
 feat: add payout oracle adapter
-fix: resolve storage collision in modeltrace
+fix: resolve storage collision in retinax
 docs: update contract architecture diagram
 test: add integration tests for pool manager
 chore: upgrade stellar-sdk to v11
@@ -71,4 +71,4 @@ chore: upgrade stellar-sdk to v11
 
 ## Questions?
 
-Open a [Discussion](https://github.com/grantfox-org/modeltrace/discussions) on GitHub.
+Open a [Discussion](https://github.com/RetinaX-Org/retinaX-model/discussions) on GitHub.

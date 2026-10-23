@@ -19,7 +19,7 @@ interface Framework {
   region: string;
   effective: string;
   requirementSummary: string;
-  modelTraceCoverage: string;
+  retinaXCoverage: string;
   status: "COVERED" | "PARTIAL" | "IN PROGRESS";
   coveragePct: number;
 }
@@ -33,8 +33,8 @@ const FRAMEWORKS: Framework[] = [
     effective: "Aug 2026 (high-risk)",
     requirementSummary:
       "High-risk AI systems must maintain technical documentation, keep detailed logs, enable human oversight, and undergo third-party conformity assessment before deployment.",
-    modelTraceCoverage:
-      "ModelTrace provides immutable audit logs, model metadata storage, bias-challenge records, and version history — satisfying Articles 12, 13, 17, and 61 of the Act.",
+    retinaXCoverage:
+      "RetinaX provides immutable audit logs, model metadata storage, bias-challenge records, and version history — satisfying Articles 12, 13, 17, and 61 of the Act.",
     status: "COVERED",
     coveragePct: 91,
   },
@@ -46,8 +46,8 @@ const FRAMEWORKS: Framework[] = [
     effective: "Jan 2023 (voluntary)",
     requirementSummary:
       "Four core functions — Govern, Map, Measure, Manage — require organisations to document AI risks, establish accountability structures, and continuously monitor deployed models.",
-    modelTraceCoverage:
-      "ModelTrace's operator registry, risk scoring, inference metering, and attestation system map directly to the Measure and Manage functions. Governance tooling is planned in Phase 2.",
+    retinaXCoverage:
+      "RetinaX's operator registry, risk scoring, inference metering, and attestation system map directly to the Measure and Manage functions. Governance tooling is planned in Phase 2.",
     status: "PARTIAL",
     coveragePct: 74,
   },
@@ -59,7 +59,7 @@ const FRAMEWORKS: Framework[] = [
     effective: "Dec 2023",
     requirementSummary:
       "Establishes requirements for an AI Management System (AIMS). Organisations must define AI policies, assess risks, implement controls, and perform internal audits of AI systems.",
-    modelTraceCoverage:
+    retinaXCoverage:
       "Audit trail and attestation registry satisfy Clause 8 (Operation) and Clause 9 (Performance Evaluation). Policy documentation and supplier controls require additional tooling.",
     status: "PARTIAL",
     coveragePct: 68,
@@ -72,7 +72,7 @@ const FRAMEWORKS: Framework[] = [
     effective: "2025–2026 (draft)",
     requirementSummary:
       "Frontier and high-impact models must be registered, safety-evaluated, and subject to mandatory incident reporting. A designated operator must hold accountability.",
-    modelTraceCoverage:
+    retinaXCoverage:
       "Operator registration and model registry satisfy the accountability requirement. Safety evaluations and incident reporting hooks are targeted in Phase 1 milestones.",
     status: "IN PROGRESS",
     coveragePct: 55,
@@ -95,12 +95,12 @@ const FAQS = [
     a: "If you deploy AI in the EU for high-risk use cases (hiring, credit, medical, law enforcement), the EU AI Act Article 12 logging requirements apply from August 2026. Under NIST AI RMF, auditing is currently voluntary in the US but increasingly required by enterprise procurement and insurance.",
   },
   {
-    q: "How does ModelTrace create an audit trail?",
+    q: "How does RetinaX create an audit trail?",
     a: "Every model registration, inference call, training event, and version update is hashed and stored immutably on Stellar Soroban. The hash acts as a cryptographic receipt. Auditors can verify any event by comparing hashes — no central authority required.",
   },
   {
-    q: "Is ModelTrace itself compliant with the EU AI Act?",
-    a: "ModelTrace is infrastructure, not a deployed AI system, so it is not directly regulated as a high-risk AI. However, it is designed to help the AI systems that run on it achieve compliance. We are pursuing ISO 42001 certification for the protocol itself in 2026.",
+    q: "Is RetinaX itself compliant with the EU AI Act?",
+    a: "RetinaX is infrastructure, not a deployed AI system, so it is not directly regulated as a high-risk AI. However, it is designed to help the AI systems that run on it achieve compliance. We are pursuing ISO 42001 certification for the protocol itself in 2026.",
   },
 ];
 
@@ -143,10 +143,10 @@ export default function CompliancePage() {
           </div>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 leading-tight">
             AI regulation is here.<br />
-            <span className="text-violet-400">ModelTrace is ready.</span>
+            <span className="text-violet-400">RetinaX is ready.</span>
           </h1>
           <p className={cn("text-lg", isDark ? "text-slate-400" : "text-slate-600")}>
-            We track every major AI governance framework and map ModelTrace features directly to their requirements — so your team can ship with confidence.
+            We track every major AI governance framework and map RetinaX features directly to their requirements — so your team can ship with confidence.
           </p>
         </motion.div>
 
@@ -183,7 +183,7 @@ export default function CompliancePage() {
                       <span className="font-semibold">Requirement: </span>{fw.requirementSummary}
                     </p>
                     <p className={cn("text-sm leading-relaxed", isDark ? "text-slate-300" : "text-slate-700")}>
-                      <span className="font-semibold text-violet-400">Coverage: </span>{fw.modelTraceCoverage}
+                      <span className="font-semibold text-violet-400">Coverage: </span>{fw.retinaXCoverage}
                     </p>
                   </div>
 

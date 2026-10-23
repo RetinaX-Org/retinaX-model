@@ -25,7 +25,7 @@ export default function AppleIcon() {
           </div>
           {/* Brand name */}
           <div style={{ display: "flex", color: "#7c3aed", fontSize: "18px", fontWeight: 900, letterSpacing: "0.18em", fontFamily: "sans-serif" }}>
-            MODELTRACE
+            RETINAX
           </div>
         </div>
       </div>

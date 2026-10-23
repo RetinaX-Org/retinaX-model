@@ -142,7 +142,7 @@ export default function ContractsPage() {
           </div>
           <h1 className="text-4xl font-bold tracking-tight mb-2">Smart Contracts</h1>
           <p className={cn("text-lg max-w-2xl", isDark ? "text-slate-400" : "text-slate-600")}>
-            Three Soroban contracts form ModelTrace&apos;s audit infrastructure. Open source, zero fees, permanently auditable.
+            Three Soroban contracts form RetinaX&apos;s audit infrastructure. Open source, zero fees, permanently auditable.
           </p>
         </motion.div>
 
@@ -271,7 +271,7 @@ export default function ContractsPage() {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.65 }}
           className="mt-10 flex flex-wrap gap-4 justify-center">
           {[
-            { label: "View on GitHub",       href: "https://github.com/grantfox-org/modeltrace/tree/main/contracts" },
+            { label: "View on GitHub",       href: "https://github.com/RetinaX-Org/retinaX-model/tree/main/contracts" },
             { label: "Soroban Docs",          href: "https://developers.stellar.org/docs/build/smart-contracts" },
             { label: "Testnet Explorer",      href: "https://stellar.expert/explorer/testnet" },
           ].map((link) => (

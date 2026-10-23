@@ -1,4 +1,4 @@
-# GitHub Issues Backlog — Modeltrace
+# GitHub Issues Backlog — RetinaX
 
 ## Batch 1 — Foundation & Scaffolding (Phase 1)
 

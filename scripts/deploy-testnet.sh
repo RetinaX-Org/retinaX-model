@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-echo "Deploying modeltrace contracts to Stellar testnet..."
+echo "Deploying retinax contracts to Stellar testnet..."
 NETWORK="testnet"
 
 for contract in audit-registry usage-meter payment-router; do

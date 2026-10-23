@@ -1,11 +1,11 @@
 """
-ModelTrace Python SDK
+RetinaX Python SDK
 Provides one-line inference logging for ML frameworks.
 
 Usage:
-    from modeltrace import ModelTraceClient
+    from retinax import RetinaXClient
     
-    client = ModelTraceClient(
+    client = RetinaXClient(
         rpc_url="https://soroban-testnet.stellar.org",
         secret_key="S...",
         contract_id="C..."
@@ -63,9 +63,9 @@ class RegistryStats:
         self.high_risk_flags = high_risk_flags
 
 
-class ModelTraceClient:
+class RetinaXClient:
     """
-    High-level client for the ModelTrace Audit Registry on Stellar Soroban.
+    High-level client for the RetinaX Audit Registry on Stellar Soroban.
     """
 
     def __init__(

@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Product",
-  description: "Modeltrace Product — explore the product section.",
+  description: "RetinaX Product — explore the product section.",
 };
 
 export default function ProductPage() {
@@ -12,7 +12,7 @@ export default function ProductPage() {
           <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-4">Product</h1>
           <p className="text-white/60 text-lg max-w-2xl">
             This section is under active development. Check the
-            {" "}<a href="https://github.com/grantfox-org/modeltrace/issues" className="text-blue-400 underline">open issues</a>{" "}
+            {" "}<a href="https://github.com/RetinaX-Org/retinaX-model/issues" className="text-blue-400 underline">open issues</a>{" "}
             to contribute.
           </p>
         </div>
@@ -28,7 +28,7 @@ export default function ProductPage() {
         <div className="mt-16 p-8 rounded-2xl bg-white/[0.03] border border-white/10 text-center">
           <p className="text-2xl font-bold mb-3">Want to build this page?</p>
           <p className="text-white/50 mb-6">Pick up an issue and submit a PR. All levels welcome.</p>
-          <a href="https://github.com/grantfox-org/modeltrace/issues?q=label%3Afrontend"
+          <a href="https://github.com/RetinaX-Org/retinaX-model/issues?q=label%3Afrontend"
             target="_blank" rel="noopener noreferrer"
             className="inline-block px-6 py-3 rounded-xl bg-white text-black font-semibold hover:scale-105 transition-transform">
             Browse Frontend Issues

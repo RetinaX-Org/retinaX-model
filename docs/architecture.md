@@ -1,4 +1,4 @@
-# Modeltrace Architecture
+# RetinaX Architecture
 
 ## Overview
 Three-layer architecture: Smart Contracts (Soroban) → Backend API (Fastify) → Frontend (Next.js).

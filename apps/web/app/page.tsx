@@ -314,7 +314,7 @@ function WalletModal({ isOpen, onClose, isDark }: { isOpen: boolean; onClose: ()
                   : <ChevronRight className="w-4 h-4 text-slate-600 group-hover:text-violet-400 transition-colors" />}
               </button>
             )}
-            <p className="text-center text-[9px] text-slate-700 mt-5 uppercase tracking-widest">Soroban · ModelTrace Protocol</p>
+            <p className="text-center text-[9px] text-slate-700 mt-5 uppercase tracking-widest">Soroban · RetinaX Protocol</p>
           </motion.div>
         </div>
       )}
@@ -343,7 +343,7 @@ function ThemeToggle({ isDark }: { isDark: boolean }) {
 
 // ─── MAIN PAGE ────────────────────────────────────────────────────────────────
 
-export default function ModelTracePage() {
+export default function RetinaXPage() {
   const [walletOpen, setWalletOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const { theme } = useTheme();
@@ -391,7 +391,7 @@ export default function ModelTracePage() {
               <Eye className="w-4 h-4 text-white" />
             </div>
             <div className="border-l-2 border-violet-500 pl-3">
-              <span className={cn("font-black text-sm uppercase tracking-[0.15em] leading-none block", isDark ? "text-white" : "text-slate-900")}>ModelTrace</span>
+              <span className={cn("font-black text-sm uppercase tracking-[0.15em] leading-none block", isDark ? "text-white" : "text-slate-900")}>RetinaX</span>
               <span className="text-[6px] font-mono text-violet-500/70 uppercase tracking-[0.4em]">AI Audit Protocol</span>
             </div>
           </div>
@@ -437,7 +437,7 @@ export default function ModelTracePage() {
             <div className={cn("flex items-center justify-center w-9 border-r", isDark ? "border-slate-800/40" : "border-slate-200")}>
               <span className="text-[6px] font-black tracking-[0.6em] uppercase select-none"
                 style={{ writingMode: "vertical-rl", transform: "rotate(180deg)", color: isDark ? "rgba(124,58,237,0.2)" : "rgba(124,58,237,0.15)" }}>
-                MODELTRACE
+                RETINAX
               </span>
             </div>
             <div className={cn("w-[280px] border-r flex flex-col", isDark ? "border-slate-800/40" : "border-slate-200")}>
@@ -465,7 +465,7 @@ export default function ModelTracePage() {
               </h1>
 
               <p className={cn("text-sm leading-[1.8] mb-8 max-w-xl", isDark ? "text-slate-400" : "text-slate-600")}>
-                ModelTrace creates an immutable audit trail for every AI model version, training dataset, and inference event — on Stellar Soroban. Not optional. Not self-reported. Cryptographically sealed.
+                RetinaX creates an immutable audit trail for every AI model version, training dataset, and inference event — on Stellar Soroban. Not optional. Not self-reported. Cryptographically sealed.
               </p>
 
               <div className="flex flex-wrap gap-3 mb-10">
@@ -638,14 +638,14 @@ export default function ModelTracePage() {
                   </span>
                 </h2>
                 <p className={cn("text-sm leading-relaxed mb-8 max-w-lg", isDark ? "text-slate-400" : "text-slate-600")}>
-                  ModelTrace is MIT-licensed infrastructure any AI operator, auditor, or regulator can deploy. The protocol is open-source — accountability is structural.
+                  RetinaX is MIT-licensed infrastructure any AI operator, auditor, or regulator can deploy. The protocol is open-source — accountability is structural.
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <button onClick={() => setWalletOpen(true)}
                     className="flex items-center gap-2 px-7 py-3.5 font-black uppercase text-[11px] tracking-widest bg-violet-600 text-white hover:bg-violet-500 transition-colors shadow-lg shadow-violet-500/20">
                     <Wallet className="w-4 h-4" /> Start Auditing
                   </button>
-                  <a href="https://github.com/FinesseStudioLab/modeltrace" target="_blank" rel="noopener noreferrer"
+                  <a href="https://github.com/RetinaX-Org/retinaX-model" target="_blank" rel="noopener noreferrer"
                     className={cn("flex items-center gap-2 px-7 py-3.5 font-bold uppercase text-[11px] tracking-widest border transition-all", isDark ? "border-slate-700 text-slate-400 hover:border-violet-500/30 hover:text-white" : "border-slate-300 text-slate-600")}>
                     <GitBranch className="w-4 h-4" /> GitHub
                   </a>
@@ -682,7 +682,7 @@ export default function ModelTracePage() {
               <Eye className="w-4 h-4 text-white" />
             </div>
             <div className="border-l-2 border-violet-500 pl-3">
-              <span className={cn("font-black text-sm uppercase tracking-[0.15em]", isDark ? "text-white" : "text-slate-900")}>ModelTrace</span>
+              <span className={cn("font-black text-sm uppercase tracking-[0.15em]", isDark ? "text-white" : "text-slate-900")}>RetinaX</span>
               <span className={cn("text-[7px] block font-mono uppercase tracking-[0.4em]", isDark ? "text-slate-600" : "text-slate-500")}>AI Audit Protocol</span>
             </div>
           </div>
@@ -691,7 +691,7 @@ export default function ModelTracePage() {
               <a key={l} href="#" className={cn("text-[10px] font-bold uppercase tracking-widest transition-colors hover:text-violet-400", isDark ? "text-slate-600" : "text-slate-500")}>{l}</a>
             ))}
           </div>
-          <p className="text-[8px] font-mono text-slate-700 uppercase tracking-widest">© 2026 FinesseStudioLab · MIT License</p>
+          <p className="text-[8px] font-mono text-slate-700 uppercase tracking-widest">© 2026 RetinaX · MIT License</p>
         </div>
       </footer>
     </div>

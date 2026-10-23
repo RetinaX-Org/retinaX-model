@@ -8,8 +8,8 @@ const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
   title: {
-    default: "ModelTrace — AI Audit Protocol",
-    template: "%s | ModelTrace",
+    default: "RetinaX — AI Audit Protocol",
+    template: "%s | RetinaX",
   },
   description: "Immutable AI audit trail on Stellar Soroban. Every model. Every inference. Every bias flag. Cryptographically sealed.",
   keywords: ["AI audit", "stellar", "soroban", "AI governance", "EU AI Act", "model provenance"],

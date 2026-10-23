@@ -93,7 +93,7 @@ export default function OperatorsPage() {
           </div>
           <h1 className="text-4xl font-bold tracking-tight mb-2">AI Operators</h1>
           <p className={cn("text-lg max-w-2xl", isDark ? "text-slate-400" : "text-slate-600")}>
-            Teams and organisations running AI models through ModelTrace. Operators register models, log usage, and receive public audit records.
+            Teams and organisations running AI models through RetinaX. Operators register models, log usage, and receive public audit records.
           </p>
         </motion.div>
 
@@ -197,7 +197,7 @@ export default function OperatorsPage() {
         <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.55 }} className="mb-14">
           <h2 className="text-2xl font-bold mb-2">What operators get</h2>
           <p className={cn("mb-8 text-sm", isDark ? "text-slate-400" : "text-slate-600")}>
-            Free, forever. ModelTrace earns nothing from protocol usage — it&apos;s public infrastructure.
+            Free, forever. RetinaX earns nothing from protocol usage — it&apos;s public infrastructure.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
             {BENEFITS.map((b, i) => (
@@ -235,7 +235,7 @@ export default function OperatorsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="https://github.com/grantfox-org/modeltrace"
+              href="https://github.com/RetinaX-Org/retinaX-model"
               target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-violet-600 text-white font-semibold text-sm hover:bg-violet-500 transition-colors"
             >
